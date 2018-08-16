@@ -1,0 +1,5 @@
+PERGUNTA:
+Para que serve um construtor e quando e como ele pode ser utilizado?
+
+RESPOSTA:
+Um construtor é utilizado para inicializar um objeto, podendo, ou não, definir os valores de seus atributos. Pode ser utilizado de duas formas
