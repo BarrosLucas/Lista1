@@ -20,7 +20,6 @@ int main (int argc, char *argv[]){
 	int sec  = fulldate->tm_sec;
 
 	Relogio relogio1 = Relogio(hora,min,sec,dia,mes,ano);
-	Relogio relogio2 = Relogio();
 
 	int tempo = clock();
 
