@@ -18,9 +18,13 @@ private:
 	int hora;
 	int minuto;
 	int segundo;
+	int dia;
+	int mes;
+	int ano;
 
 public:
 	Relogio();
+	Relogio(int hora, int minuto, int segundo,int dia, int mes, int ano);
 	virtual ~Relogio();
 
 	int getHora();
@@ -35,7 +39,19 @@ public:
 
 	void setSegundo(int segundo);
 
-	string avancarHorario(){}
+	int getDia();
+
+	void setDia(int dia);
+
+	int getMes();
+
+	void setMes(int mes);
+
+	int getAno();
+
+	void setAno(int ano);
+
+	string avancarHorario();
 };
 
 #endif /* RELOGIO_H_ */
