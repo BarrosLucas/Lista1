@@ -30,4 +30,5 @@ int main (int argc, char *argv[]){
 		tempo = clock();
 	}
 
+	return 0;
 }
