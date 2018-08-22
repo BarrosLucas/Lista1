@@ -1,0 +1,6 @@
+PERGUNTA
+Quais são os benefícios do encapsulamento na programação orientada a objetos? Exemplifique.
+
+RESPOSTA
+Garante maior segurança e consistência ao código, impedindo que classes indesejadas possam alterar de forma indesejada valores de atributos de uma classe. Por exemplo:
+Imagine uma classe Relogio. Sabe-se que a hora, no relógio, pode ser no máximo até 23 horas. Após isso é 00 horas do dia seguinte. Supondo que exista um atributo PÚBLICO de horas na classe relógio, outra classe muda seu valor para 90. Note que, por ser público, qualquer classe possui essa liberdade, o que acaba corrompendo o funcionamento ideal do programa.

@@ -1,0 +1,5 @@
+PERGUNTA
+Qual é o propósito da palavra reservada new? Explique o que acontece quando você a utiliza.
+
+RESPOSTA:
+É utilizado para alocar parte da memória ao objeto que está sendo instanciado. Ele verifica tudo o que a classe possui e reserva o espaço necessário na memória para que o objeto dessa classe possa existir.
