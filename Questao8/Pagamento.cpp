@@ -16,3 +16,15 @@ Pagamento::~Pagamento() {
 	// TODO Auto-generated destructor stub
 }
 
+double Pagamento::getValorDoPagamento(){
+	return valorDoPagamento;
+}
+void Pagamento::setValorDoPagamento(double valorDoPagamento){
+	this->valorDoPagamento = valorDoPagamento;
+}
+std::string Pagamento::getNomeDoFuncionario(){
+	return nomeDoFuncionario;
+}
+void Pagamento::setNomeDoFuncionario(std::string nomeDoFuncionario){
+	this -> nomeDoFuncionario = nomeDoFuncionario;
+}

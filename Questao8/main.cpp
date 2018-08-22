@@ -17,7 +17,7 @@ int main (int argc, char *argv[]){
 	pagamento2.setValorDoPagamento(150);
 	pagamento2.setNomeDoFuncionario("Func2");
 
-	ControleDePagamentos::setPagamentos(pagamento1,0)
+	ControleDePagamentos::setPagamentos(pagamento1,0);
 	ControleDePagamentos::setPagamentos(pagamento2,1);
 
 	return 0;
